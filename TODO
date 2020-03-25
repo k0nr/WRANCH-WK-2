@@ -9,15 +9,26 @@ X   - decorate template pages
     - embed fonts? 
 
 --- week 2 ---
-    - use #sections to make sure you end up below the intro every time
+X  - use #sections to make sure you end up below the intro every time
 X   - copy github repo
     - intro & outro video: set opacity 1 (inherits from parent div??) 
 
+    
+    
+    - update styles
+        - menu style
+        - play style
+        
+        
+        
+    
 X  - cuts
 
-    - easier ways to do templates? 
-        external CSS stylesheet
+X   - easier ways to do templates? 
+    X -   external CSS stylesheet
 x   - scramble the menu    
     - new plays
+        - build pages
+        - add links to menu
 
 

@@ -10,14 +10,14 @@ X   - decorate template pages
 
 --- week 2 ---
     - use #sections to make sure you end up below the intro every time
-    - copy github repo
+X   - copy github repo
     - intro & outro video: set opacity 1 (inherits from parent div??) 
 
-    - cuts
+X  - cuts
 
     - easier ways to do templates? 
         external CSS stylesheet
-    - scramble the menu    
+x   - scramble the menu    
     - new plays
 
 

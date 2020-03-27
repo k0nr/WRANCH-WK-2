@@ -134,11 +134,12 @@ height:100%;
 			
 /* Define & style divs */    
 			
-    #linx {
+    #playlist {
 		position: relative;
 		left:15%;
 		width:70%;
-		text-align:center;
+		text-align:justify;
+        font-family:serif;
 		}
 		
     #plays {
@@ -151,11 +152,10 @@ height:100%;
         }
         
     #center-menu {
-        background-color:black;
-        opacity:0.95;
+        background-color:rgba(0,0,0,0.8);
         width:60%;
         position:relative;
-        left:20%;    
+        left:5%;    
         }
         
     #contact {

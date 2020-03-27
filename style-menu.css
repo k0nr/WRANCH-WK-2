@@ -59,7 +59,16 @@ font-size:30px;
   -webkit-animation-iteration-count: infinite;  
   -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
   -webkit-animation-duration: 2.5s;
-}	
+}
+
+.css3-blinker2 {
+		 -webkit-animation-name: blinker;  
+  -webkit-animation-iteration-count: infinite;  
+  -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+  -webkit-animation-duration: 2s;
+}
+
+/* youtube container for intro & outro */
 
 .youtube-responsive-container {
 position:relative;
@@ -79,7 +88,7 @@ height:100%;
 
 /* Styling, etc */
 				
-            body{background: url(images/background.png); 
+            body{background: url(images/collagesmall.png); 
 			font-family: Courier New;
 			color:white;
 			}
@@ -92,10 +101,11 @@ height:100%;
 			
 						
 			h1 {
-			font-family: monospace;
-			text-align: center;
+			font-family: 'Tomorrow', monospace;
+			text-align: left;
+            padding-left: 5%;
 			font-weight: bold;
-			font-size:36px;
+			font-size:66px;
 			text-decoration: underline;
 			animation-name: crossfade;
 			animation-duration: 3.5s;
@@ -104,10 +114,11 @@ height:100%;
 			}
 			
 			h2 {
-			font-family: Courier New;
-			text-align: center;
+			font-family: 'Tomorrow', monospace;
+			text-align: left;
+            padding-left: 5%;
 			font-weight: bold;
-			font-size: 28px;
+			font-size: 40px;
 			text-decoration: underline;
 			}
 			
@@ -115,7 +126,10 @@ height:100%;
 			font-weight: bold;
 			color: #FFE64D;
 			text-align: center;
+            font-family: 'Tomorrow', monospace;
 			}
+			
+			
 			
 			a:link {
 			color:#99ffff;
@@ -139,21 +153,22 @@ height:100%;
 		left:15%;
 		width:70%;
 		text-align:justify;
-        font-family:serif;
+        font-family: 'PT Mono', monospace;
 		}
 		
     #plays {
-        text-align: center;
-        animation: spinround 3s linear infinite;
+        text-align: left;
+        padding-left: 5%;
+        font-family: 'Tomorrow', monospace;
+        font-weight: light;
+        left: 50%;
         }
-    #plays2 {
-        text-align: center;
-        animation: spinround2 3s linear infinite;
-        }
+ 
+        
         
     #center-menu {
-        background-color:rgba(0,0,0,0.8);
-        width:60%;
+        background-color:rgba(0,0,0,0.98);
+        width:55%;
         position:relative;
         left:5%;    
         }

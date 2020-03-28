@@ -50,7 +50,7 @@ font-size:30px;
 	
 		.spit {
 		animation-name: spit;
-		animation-duration: 5s;
+		animation-duration: 2s;
 		animation-iteration-count: infinite;
 		}
 		
@@ -67,6 +67,11 @@ font-size:30px;
   -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
   -webkit-animation-duration: 2s;
 }
+  .playtitle {
+    padding-left: 36px
+    text-indent: -36px
+}
+  
 
 /* youtube container for intro & outro */
 
@@ -80,7 +85,7 @@ overflow:hidden;
 
 .youtube-responsive-container iframe, 
 .youtube-responsive-container object, 
-.youtube-responsive-container embed {
+.youtube-responsive-container embed {h
 position:absolute;
 width:100%;
 height:100%;
@@ -88,7 +93,9 @@ height:100%;
 
 /* Styling, etc */
 				
-            body{background: url(images/collagesmall.png); 
+            body {
+            background: url(images/ides-square.png); 
+               background-attachment: fixed;
 			font-family: Courier New;
 			color:white;
 			}
@@ -127,6 +134,22 @@ height:100%;
 			color: #FFE64D;
 			text-align: center;
             font-family: 'Tomorrow', monospace;
+			}
+			
+			h4 {
+			font-family: 'Tomorrow', monospace;
+			text-align: left;
+            padding-left: 5%;
+			font-weight: bold;
+			font-size: 18px;
+			}
+			
+			h5 {
+			font-weight: bold;
+			color: #FFE64D;
+			text-align: center;
+            font-family: 'Tomorrow', monospace;
+            font-size:12px;
 			}
 			
 			
@@ -170,16 +193,19 @@ height:100%;
         background-color:rgba(0,0,0,0.98);
         width:55%;
         position:relative;
-        left:5%;    
+        left:5%;
+        padding-top: 0px;
         }
         
     #contact {
 	  position: fixed;
+    background-color: black;
 	bottom: 0;
 	right: 0;
 	border: 10px solid #99c1ff;
-	background-color: black;
 	color: #99c1ff;
+    font-family: 'Tomorrow', monospace;
+
     }
     
     

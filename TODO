@@ -17,7 +17,7 @@ X   - intro & outro video: set opacity 1 (inherits from parent div??)
     
     - update styles
         - menu style
-            change animations
+        X    change animations
             refresh background image
             update credits
             fill out language at top with some kurt-isms

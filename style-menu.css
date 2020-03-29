@@ -71,6 +71,12 @@ font-size:30px;
     padding-left: 36px
     text-indent: -36px
 }
+
+.centerImage
+{
+ text-align:center;
+ display:block;
+}
   
 
 /* youtube container for intro & outro */
@@ -96,7 +102,7 @@ height:100%;
             body {
             background: url(images/ides-square.png); 
                background-attachment: fixed;
-			font-family: Courier New;
+			font-family: 'PT Mono', monospace;
 			color:white;
 			}
 			

@@ -7,6 +7,8 @@
                 background-attachment: fixed;
             font-family: Courier New;
 			color:white;
+            cursor: url('images/cursor.cur'), default;
+
 			
 			}
 		
